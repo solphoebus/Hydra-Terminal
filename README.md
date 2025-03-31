@@ -1,35 +1,12 @@
-# *Hydra Terminal*  
+# React + Vite
 
-*Hydra Terminal* is a *MERN stack-based* blogging platform designed with a *retro, command-line aesthetic*, inspired by Hydra’s intelligence networks. The platform allows users to create, log, and manage blog posts, styled as classified "case files" for secret agents.  
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## *Features*  
-- *User Authentication:* Secure login and registration using *JWT (JSON Web Token)*  
-- *Blog Management:* Users can create, view, and delete posts styled as case files  
-- *File Uploads:* Local storage for images using *Multer*  
-- *Metadata Storage:* Each post includes *location, date, and time* for enhanced logging  
-- *Themed UI:* A command-line-inspired interface for a unique user experience  
+Currently, two official plugins are available:
 
-## *Tech Stack*  
-### *Frontend:*  
-- *React.js* with *TypeScript* for modular, type-safe components  
-- *Styled Components* to create a terminal-inspired UI  
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### *Backend:*  
-- *Node.js* and *Express.js* for a lightweight API  
-- *MongoDB (Mongoose)* for database management  
+## Expanding the ESLint configuration
 
-### *Authentication & Security:*  
-- *JWT-based authentication* for user sessions  
-- *bcrypt.js* for password hashing  
-
-### *File Handling:*  
-- *Multer* for handling image uploads locally  
-
----
-
-## *Installation & Setup*  
-
-### *1. Clone the Repository*  
-```sh
-git clone https://github.com/your-username/hydra-terminal.git
-cd hydra-terminal
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
